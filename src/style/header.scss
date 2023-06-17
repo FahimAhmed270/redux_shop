@@ -111,3 +111,8 @@ header.active {
     @include positions(absolute, 110%, none, none, 20px, 450px, auto);
   }
 }
+@media screen and (max-width: 400px) {
+  header{
+    padding: 10px 20px;
+  }
+}

@@ -10,7 +10,7 @@ const Product = () => {
       <section className="product">
         <div className="container">
           <Heading title='Trendings Products' des='Check the hottest designs of the week. These rising stars are worth your attention.' />
-          <ProductItems />
+          <ProductItems cartItems={cartItems}/>
         </div>
       </section>
     </>

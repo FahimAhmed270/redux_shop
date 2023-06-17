@@ -1,6 +1,7 @@
 .cards {
   display: grid;
   @include grid(repeat(5, 1fr), 30px);
+
   .card {
     @include flex(center, none, center);
 
@@ -9,4 +10,25 @@
       margin-right: $md;
     }
   }
+}
+@media screen and (max-width: 800px) {
+    .cards{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     gap: 20px;
+    }
+}
+@media screen and (max-width: 500px) {
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+   }
+}
+@media screen and (max-width: 400px) {
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+   }
 }
