@@ -8,19 +8,19 @@ export const navlist = [
   },
   {
     text: "shop",
-    path: "/shop",
+    path: "#",
   },
   {
     text: "about us",
-    path: "/about",
+    path: "#",
   },
   {
     text: "blog",
-    path: "/blog",
+    path: "#",
   },
   {
     text: "contact us",
-    path: "/contact",
+    path: "#",
   },
 ]
 export const hero = [

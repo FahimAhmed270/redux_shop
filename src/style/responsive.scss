@@ -9,6 +9,11 @@
         z-index: 999999;
       }
     }
+    @media screen and (max-width: 500px) {
+      .toggle{
+        margin-right: 50%;
+      }
+    }
     .center {
       ul {
         display: none;
@@ -16,7 +21,7 @@
 
       .mobile-nav {
         display: block;
-        @include positions(absolute, 0, none, -50px, none, none, none);
+        @include positions(absolute, 0, none, 0px, none, none, none);
         @include width(400px, 100vh, $light, $white, 0, 0);
         padding: $large 0;
         z-index: 99999;

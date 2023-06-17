@@ -1,10 +1,13 @@
 import React from 'react'
 
-const Heading = () => {
+const Heading = ({title, des}) => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <div className="heading">
+        <h2>{title}</h2>
+        <p>{des}</p>
+      </div>
+    </>
   )
 }
 
