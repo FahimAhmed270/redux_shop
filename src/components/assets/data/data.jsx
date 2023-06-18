@@ -59,7 +59,7 @@ export const products = [
   {
     id: 1,
     cover: "../images/product/1-1-1.jpg",
-    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    title: "Anaton - SaaS Landing Page",
     author: "by Blueskytechco in Mockups",
     price: 30.0,
     category: "mockups",
@@ -68,7 +68,7 @@ export const products = [
   {
     id: 2,
     cover: "../images/product/2-1-1.jpg",
-    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    title: "Bufet - App, Saas and Software",
     author: "by Blueskytechco in Mockups",
     price: 10.0,
     category: "mockups",
@@ -77,7 +77,7 @@ export const products = [
   {
     id: 3,
     cover: "../images/product/3-1-1.jpg",
-    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    title: "Virtual Business Card CV",
     author: "by Blueskytechco in Mockups",
     price: 20.0,
     category: "images stocks",
@@ -86,7 +86,7 @@ export const products = [
   {
     id: 4,
     cover: "../images/product/4-3.jpg",
-    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    title: "Paper Made - 3 Pages",
     author: "by Blueskytechco in Mockups",
     price: 40.0,
     category: "images stocks",
@@ -95,7 +95,7 @@ export const products = [
   {
     id: 5,
     cover: "../images/product/5-1-1.jpg",
-    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    title: "Lando UI Kit",
     author: "by Blueskytechco in Mockups",
     price: "50.00",
     category: "web theme",
@@ -104,7 +104,7 @@ export const products = [
   {
     id: 6,
     cover: "../images/product/6-3.jpg",
-    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    title: "Golf - Sports Store",
     author: "by Blueskytechco in Mockups",
     price: "30.00",
     category: "web theme",
@@ -113,7 +113,7 @@ export const products = [
   {
     id: 7,
     cover: "../images/product/7-1-1.jpg",
-    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    title: "Katen - Blog & Magazine Theme",
     author: "by Blueskytechco in Mockups",
     price: "30.00",
     category: "icons",
@@ -122,7 +122,7 @@ export const products = [
   {
     id: 8,
     cover: "../images/product/8-1.jpg",
-    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    title: "Iteck - Software & Technology",
     author: "by Blueskytechco in Mockups",
     price: "30.00",
     category: "icons",
@@ -149,7 +149,7 @@ export const topProducts = [
   {
     id: 20,
     cover: "../images/product/7-1-1.jpg",
-    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    title: "Anaton - SaaS Landing Page",
     author: "by Blueskytechco in Mockups",
     price: "30.00",
     category: "icons",
@@ -158,7 +158,7 @@ export const topProducts = [
   {
     id: 21,
     cover: "../images/product/8-1.jpg",
-    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    title: "Bufet - App, Saas and Software",
     author: "by Blueskytechco in Mockups",
     price: "30.00",
     category: "icons",
@@ -167,7 +167,7 @@ export const topProducts = [
   {
     id: 22,
     cover: "../images/product/6-3.jpg",
-    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    title: "Virtual Business Card CV",
     author: "by Blueskytechco in Mockups",
     price: "30.00",
     category: "web theme",
@@ -177,7 +177,7 @@ export const topProducts = [
   {
     id: 23,
     cover: "../images/product/5-1-1.jpg",
-    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    title: "Paper Made - 3 Pages",
     author: "by Blueskytechco in Mockups",
     price: "30.00",
     category: "web theme",
@@ -186,7 +186,7 @@ export const topProducts = [
   {
     id: 24,
     cover: "../images/product/4-3.jpg",
-    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    title: "Lando UI Kit",
     author: "by Blueskytechco in Mockups",
     price: "30.00",
     category: "images stocks",
@@ -195,7 +195,7 @@ export const topProducts = [
   {
     id: 25,
     cover: "../images/product/3-1-1.jpg",
-    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    title: "Golf - Sports Store",
     author: "by Blueskytechco in Mockups",
     price: "30.00",
     category: "images stocks",
@@ -204,7 +204,7 @@ export const topProducts = [
   {
     id: 26,
     cover: "../images/product/1-1-1.jpg",
-    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    title: "Katen - Blog & Magazine Theme",
     author: "by Blueskytechco in Mockups",
     price: "30.00",
     category: "mockups",
@@ -213,7 +213,7 @@ export const topProducts = [
   {
     id: 27,
     cover: "../images/product/2-1-1.jpg",
-    title: "Floating 2021 iPhone 12 Mockups (PSD)",
+    title: "Iteck - Software & Technology",
     author: "by Blueskytechco in Mockups",
     price: "30.00",
     category: "mockups",

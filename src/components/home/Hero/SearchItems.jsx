@@ -1,4 +1,6 @@
 import React from 'react'
+import { FiShoppingBag, FiSearch } from "react-icons/fi"
+import { AiOutlineHeart } from "react-icons/ai"
 
 const SearchItems = ({ products, value, onSearch }) => {
   return (
@@ -16,7 +18,7 @@ const SearchItems = ({ products, value, onSearch }) => {
                 <div className="box" key={items.id}>
                   <div className="img">
                     <img src={items.cover} alt="" />
-                    <div className="overlay">
+                    {/* <div className="overlay">
                       <button className='button'>
                         <FiShoppingBag />
                       </button>
@@ -26,7 +28,7 @@ const SearchItems = ({ products, value, onSearch }) => {
                       <button className='button' onClick={() => openImg(items.cover)}>
                         <FiSearch />
                       </button>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="details">
                     <h3>{items.title}</h3>
