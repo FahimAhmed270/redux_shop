@@ -1,27 +1,28 @@
-import React from "react"
+import React from 'react'
+import Heading from '../../common/Heading'
+import { customer } from '../../assets/data/data'
 import { ImQuotesRight } from "react-icons/im"
-import { customer } from "../../assets/data/data"
-import { Heading } from "../../common/Heading"
 
-export const Testimonial = () => {
+const Testimonial = () => {
   return (
     <>
-      <section className='customer'>
-        <Heading title='Choose The Plans' desc='Meet our newbies! The latest templates uploaded to the marketplace.' />
-
-        <div className='content'>
-          {customer.map((items) => (
-            <div className='card' key={items.id}>
-              <button>
-                <ImQuotesRight />
-              </button>
-              <p> "{items.desc}"</p>
-              <h3>{items.name}</h3>
-              <span>{items.post}</span>
-            </div>
-          ))}
+      <section className="customer">
+        <Heading title='Choose The Plans' des='Meet our newbies! The latest templates uploaded to the marketplace.' />
+        <div className="content">
+          {
+            customer.map((item) => (
+              <div className="card" key={item.id}>
+                <button><ImQuotesRight /></button>
+                <p>"{item.desc}"</p>
+                <h3>{item.name}</h3>
+                <span>{item.post}</span>
+              </div>
+            ))
+          }
         </div>
       </section>
     </>
   )
 }
+
+export default Testimonial

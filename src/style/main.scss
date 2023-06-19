@@ -38,6 +38,10 @@ li {
 .button {
   @include width(150px, 40px, linear-gradient(90deg, #ff4267 40%, #ff4b2e 100%), $white, 40px, none);
   @include flex(center, center, center);
+  transition: 0.3s ease;
+  &:hover{
+    background: #213363;
+  }
 
   .heIcon {
     margin: 0 $sm;

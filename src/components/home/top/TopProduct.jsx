@@ -5,15 +5,15 @@ import ProductItems from '../product/ProductItems'
 
 const TopProduct = () => {
   const [cartItems, setCartItems] = useState(topProducts)
-  const allCategories = ['all', ...new Set(cartItems.map((item) => item.category))]
+  const allCategory = ['All', ...new Set(cartItems.map((item)=> item.category))]
 
-  const [category, setCategory] = useState(allCategories)
+  const [category, setCategory] = useState(allCategory)
 
-  const handleFilter = (category) => {
-    const newItem = topProducts.filter((item) => item.category === category)
+  const handleFilter=(category)=>{
+    const newItem = topProducts.filter((item)=> item.category === category)
     setCartItems(newItem)
-    
-    if(category === 'all'){
+
+    if(category === 'All'){
       setCartItems(topProducts)
     }
   }

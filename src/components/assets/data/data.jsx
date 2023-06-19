@@ -322,20 +322,20 @@ export const customer = [
   {
     id: 1,
     desc: "Congue condimentum et non eu arcu sociis aenean vivamus quisque. Porta purus urna. Massa id blandit enim cursus ante, nec consectetuer imperdiet ipsum",
-    name: "ALGISTINO",
-    post: "Marketing Company Director",
+    name: "Don M. Fierro",
+    post: "Marketing Director",
   },
   {
     id: 2,
     desc: "Congue condimentum et non eu arcu sociis aenean vivamus quisque. Porta purus urna. Massa id blandit enim cursus ante, nec consectetuer imperdiet ipsum",
-    name: "ALGISTINO",
-    post: "Marketing Company Director",
+    name: "Wayne D.Moreau",
+    post: "Director",
   },
   {
     id: 3,
     desc: "Congue condimentum et non eu arcu sociis aenean vivamus quisque. Porta purus urna. Massa id blandit enim cursus ante, nec consectetuer imperdiet ipsum",
-    name: "ALGISTINO",
-    post: "Marketing Company Director",
+    name: "Jennifer Kelly",
+    post: "CEO",
   },
 ]
 export const blog = [
