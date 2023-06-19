@@ -131,7 +131,6 @@ p {
 .posts {
   @include grid(repeat(2, 1fr), 30px);
   margin-top: $xl-6;
- 
 
   .post {
     .content {

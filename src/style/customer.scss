@@ -12,21 +12,25 @@
         @include positions(absolute, -40px, none, 40%, none, none, none);
         font-size: 20px;
         @include transition;
+
         &:hover {
           background: $primary;
           color: $white;
         }
       }
+
       p {
         font-size: $md;
         line-height: 2;
         margin-top: $xl-3;
       }
+
       h3 {
         color: $blue;
         font-size: $lg;
         margin: $lg 0;
       }
+
       span {
         color: $text;
         font-size: $md;
@@ -34,3 +38,4 @@
     }
   }
 }
+

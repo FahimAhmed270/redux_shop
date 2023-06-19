@@ -12,6 +12,12 @@
     max-width: 80%;
     margin: auto;
 
+    @media screen and (max-width: 900px) {
+      @include grid(repeat(2, 1fr), 30px);
+    }
+    @media screen and (max-width: 500px) {
+      @include grid(repeat(1, 1fr), 30px);
+    }
     .box {
       padding: $xl-4;
       border-radius: 10px;
@@ -79,6 +85,7 @@
       }
     }
   }
+  
 
   $colors: #2acb39,
   #ffa904,

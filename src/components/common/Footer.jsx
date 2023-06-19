@@ -1,10 +1,12 @@
-import React from 'react'
+import React from "react"
 
-const Footer = () => {
+export const Footer = () => {
   return (
-    <div>
-      Footer
-    </div>
+    <>
+      <footer>
+        <p>Copyright © GOSTO all rights reserved. Powered by Fahim Ahmed.</p>
+      </footer>
+    </>
   )
 }
 
